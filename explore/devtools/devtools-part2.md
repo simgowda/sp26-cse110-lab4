@@ -1,0 +1,2 @@
+1. The bug was that the input values were being treated as strings instead of numbers. This was leading to string concatenation instead of addition with numbers.
+2. I would convert the input values to numbers before the addition is performed.
